@@ -9,12 +9,12 @@ import 'screens/splash_screen.dart';
 /// Firebase configuration for web
 /// IMPORTANT: Replace with your actual Firebase project configuration
 const firebaseConfig = FirebaseOptions(
-  apiKey: "AIzaSyD8cH9raOzANX4jShtnrCV0Nq5WiniDKcE",
-  authDomain: "quickchef-ai-cd52f.firebaseapp.com",
-  projectId: "quickchef-ai-cd52f",
-  storageBucket: "quickchef-ai-cd52f.firebasestorage.app",
-  messagingSenderId: "1088724386202",
-  appId: "1:1088724386202:web:9e638f413f230c4a183a23",
+  apiKey: "your-api-key-here",
+  authDomain: "your-project-id.firebaseapp.com",
+  projectId: "your-id-here",
+  storageBucket: "your-project-id.firebasestorage.app",
+  messagingSenderId: "your-masseging-id",
+  appId: "1:your_masseging-id:web:web-masseging-id",
 );
 
 void main() async {
