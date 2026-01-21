@@ -1,0 +1,43 @@
+name: quickchef_ai
+description: AI-powered cooking assistant that transforms ingredients into delicious meals
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.0.0 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+  
+  # Firebase Core - Required for all Firebase services
+  firebase_core: ^4.2.1
+  
+  # Firebase Authentication - Email/Password authentication
+  firebase_auth: ^6.1.2
+  
+  # Cloud Firestore - NoSQL database for recipes and shopping lists
+  cloud_firestore: ^6.1.0
+  
+  # HTTP - API calls to Groq AI service
+  http: ^1.1.0
+  
+  # Provider - State management for app-wide state
+  provider: ^6.1.1
+  
+  # Shared Preferences - Local storage for user preferences
+  shared_preferences: ^2.2.2
+  
+  # Google Fonts - Poppins and Inter fonts
+  google_fonts: ^6.1.0
+  
+  # Intl - Date formatting and localization
+  intl: ^0.18.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^3.0.0
+
+flutter:
+  uses-material-design: true
